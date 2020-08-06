@@ -3,11 +3,10 @@ var nome = prompt("Inserisci il nome");
 var sesso = prompt("Inserisci il sesso")
 document.getElementById('testo').innerHTML =" " + nome;
 
+var nome = document.getElementById('testo');
 
 if (sesso == "maschio") {
-  var nome = document.getElementById('testo');
   nome.style.color = "blue";
 } else if (sesso == "femmina") {
-  var nome = document.getElementById('testo');
   nome.style.color = "pink";
 }
