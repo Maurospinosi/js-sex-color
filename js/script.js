@@ -9,4 +9,6 @@ if (sesso == "maschio") {
   nome.style.color = "blue";
 } else if (sesso == "femmina") {
   nome.style.color = "pink";
+} else {
+  alert("Nessun sesso inserito");
 }
